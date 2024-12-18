@@ -4,6 +4,17 @@
   text-align: center;
 }
 
+.button {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 10px 20px;
+  text-decoration: solid;
+  background-color: #4ECCA3;
+  color: #393E46;
+  position: relative;
+  left: 43%;
+
+}
 .dice {
   text-align: center;
   display: inline-block;
