@@ -12,7 +12,7 @@ var RandomNumber2= Math.ceil(Math.random()*6);
 //document.querySelectorAll("img")[0].setAttribute(src, blah.png) ....
 document.querySelector(".img2").src ="images/dice"+ RandomNumber2 + ".png";
 
-// Winner
+// Winner.
 if(RandomNumber1>RandomNumber2){
 document.querySelector("h1").innerHTML = "🚩 Player 1 wins!";
 }
